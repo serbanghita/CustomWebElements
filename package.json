@@ -1,0 +1,28 @@
+{
+  "name": "customwebelements",
+  "version": "1.0.0",
+  "description": "Testing CustomElements, MutationObservers and Decorators.",
+  "main": "src/index.js",
+  "scripts": {
+    "startServer": "$(npm bin)/browser-sync start --s \"dist\" --f \"dist\" --port 3000 --reload-debounce 1500 --no-ui",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serbanghita/CustomWebElements.git"
+  },
+  "keywords": [
+    "customelements",
+    "mutationobserver",
+    "decorators"
+  ],
+  "author": "Serban Ghita",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/serbanghita/CustomWebElements/issues"
+  },
+  "homepage": "https://github.com/serbanghita/CustomWebElements#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.8"
+  }
+}
